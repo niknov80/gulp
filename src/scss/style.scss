@@ -1,0 +1,19 @@
+@import 'normalize';
+@import 'mixins';
+@import 'fonts';
+@import 'variables';
+
+main {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        color: $primary-text-color;
+    }
+}
+
+footer {
+    h2 {
+        color: $secondary-text-color;
+    }
+}
